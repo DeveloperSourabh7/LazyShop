@@ -2,4 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sourabh.commonutils">
 
+    <application>
+        <activity
+            android:name=".BaseActivity"
+            android:exported="false" />
+    </application>
+
 </manifest>
