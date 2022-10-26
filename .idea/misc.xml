@@ -4,14 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProject/LazyShop/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/drawable/cursor_drawable.xml" value="0.1165" />
         <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/drawable/ic_fb_icon.xml" value="0.1785" />
         <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/drawable/ic_google_icon.xml" value="0.1785" />
         <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/drawable/ic_linked_in_icon.xml" value="0.1785" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/drawable/til_border_drawable.xml" value="0.1165" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/activity_authentication.xml" value="0.18541666666666667" />
         <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/activity_login.xml" value="0.14722222222222223" />
         <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/fragment_forgot_password.xml" value="0.1" />
         <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/fragment_sign_in.xml" value="0.1" />
         <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/fragment_signup.xml" value="0.1" />
         <entry key="..\:/AndroidProject/LazyShop/commonutils/src/main/res/drawable/bottom_nav_selector.xml" value="0.176" />
+        <entry key="..\:/AndroidProject/LazyShop/commonutils/src/main/res/drawable/cursor_drawable.xml" value="0.1165" />
+        <entry key="..\:/AndroidProject/LazyShop/commonutils/src/main/res/drawable/til_border_drawable.xml" value="0.1165" />
         <entry key="..\:/AndroidProject/LazyShop/commonutils/src/main/res/layout/activity_base.xml" value="0.18541666666666667" />
         <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/drawable/ic_baseline_close_24_primary_color.xml" value="0.114" />
         <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.114" />

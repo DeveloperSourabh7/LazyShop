@@ -14,10 +14,6 @@ class LoginRegistrationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_authentication)
-        supportFragmentManager.commit {
-               val fragment = SignInFragment()
-            add(R.id.container_fragment, fragment)
-        }
+        setContentView(R.layout.activity_authentication)
     }
 }

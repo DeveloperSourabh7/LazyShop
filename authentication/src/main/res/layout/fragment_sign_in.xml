@@ -22,16 +22,16 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
 
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cd_container"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/dimen_0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                app:cardCornerRadius="5dp"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                app:cardCornerRadius="@dimen/dimen_5dp"
                 app:layout_constraintBottom_toTopOf="@+id/btn_signup"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -45,10 +45,10 @@
 
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/banner"
-                        android:layout_width="0dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/dimen_0dp"
+                        android:layout_height="@dimen/dimen_150dp"
                         android:scaleType="centerCrop"
-                        android:src="@color/black"
+                        android:src="@drawable/login_banner"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -57,19 +57,19 @@
                     <com.google.android.material.textview.MaterialTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginBottom="18dp"
-                        android:text="Securely Sign In Your Account"
+                        android:layout_marginStart="@dimen/dimen_20dp"
+                        android:layout_marginBottom="@dimen/dimen_18dp"
+                        android:text="@string/securely_sign_in_your_account"
                         android:textColor="@color/white"
-                        android:textSize="18sp"
+                        android:textSize="@dimen/spacing_18sp"
                         app:layout_constraintBottom_toBottomOf="@+id/banner" />
 
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/til_email"
                         style="@style/Lazy_TextInputLayout"
-                        android:layout_width="0dp"
-                        android:layout_marginTop="20dp"
-                        android:hint="Emsil Id"
+                        android:layout_width="@dimen/dimen_0dp"
+                        android:layout_marginTop="@dimen/dimen_20dp"
+                        android:hint="@string/email_id"
                         app:errorEnabled="true"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -89,9 +89,9 @@
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/til_password"
                         style="@style/Lazy_TextInputLayout"
-                        android:layout_width="0dp"
-                        android:layout_marginTop="10dp"
-                        android:hint="Password"
+                        android:layout_width="@dimen/dimen_0dp"
+                        android:layout_marginTop="@dimen/dimen_10dp"
+                        android:hint="@string/password"
                         app:endIconMode="password_toggle"
                         app:endIconTint="@color/primaryColor"
                         app:errorEnabled="true"
@@ -112,14 +112,14 @@
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/tv_forgot_pwd"
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/dimen_0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginVertical="15dp"
+                        android:layout_marginVertical="@dimen/dimen_15dp"
                         android:gravity="end|center_vertical"
-                        android:minHeight="30dp"
-                        android:text="Forgot Password ?"
+                        android:minHeight="@dimen/dimen_30dp"
+                        android:text="@string/forgot_password"
                         android:textColor="@color/primaryColor"
-                        android:textSize="16sp"
+                        android:textSize="@dimen/spacing_16sp"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/til_password"
@@ -128,12 +128,13 @@
 
                     <com.google.android.material.textview.MaterialTextView
                         android:id="@+id/label"
-                        android:layout_width="0dp"
+                        android:layout_width="@dimen/dimen_0dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginVertical="5dp"
+                        android:layout_marginVertical="@dimen/dimen_5dp"
+                        android:layout_marginStart="@dimen/dimen_10dp"
                         android:gravity="start|center_vertical"
-                        android:text="Or SignIn with"
-                        android:textSize="12sp"
+                        android:text="@string/or_signin_with"
+                        android:textSize="@dimen/spacing_12sp"
                         app:buttonTint="@color/ed_hint_color"
                         app:layout_constrainedHeight="true"
                         app:layout_constraintBottom_toBottomOf="parent"
@@ -142,10 +143,10 @@
 
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/btn_google_signin"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginVertical="5dp"
-                        android:padding="5dp"
+                        android:layout_width="@dimen/dimen_50dp"
+                        android:layout_height="@dimen/dimen_50dp"
+                        android:layout_marginVertical="@dimen/dimen_5dp"
+                        android:padding="@dimen/dimen_10dp"
                         android:scaleType="centerInside"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/btn_fb_signin"
@@ -154,10 +155,10 @@
 
                     <com.google.android.material.imageview.ShapeableImageView
                         android:id="@+id/btn_fb_signin"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginVertical="5dp"
-                        android:padding="5dp"
+                        android:layout_width="@dimen/dimen_50dp"
+                        android:layout_height="@dimen/dimen_50dp"
+                        android:layout_marginVertical="@dimen/dimen_5dp"
+                        android:padding="@dimen/dimen_10dp"
                         android:scaleType="centerInside"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -169,12 +170,12 @@
             </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_signup"
+                android:id="@+id/btn_signIn"
                 style="@style/Lazy_Button_Primary"
-                android:layout_width="0dp"
+                android:layout_width="@dimen/dimen_0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:text="Sign In"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/sign_in"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cd_container"
@@ -183,14 +184,14 @@
                 tools:ignore="TextContrastCheck" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_already_signin"
+                android:id="@+id/btn_signUp"
                 android:layout_height="wrap_content"
                 style="@style/Lazy_Outline_Button"
-                android:layout_width="0dp"
-                android:text="Sign up if new to LazyShop"
+                android:layout_width="@dimen/dimen_0dp"
+                android:text="@string/sign_up_if_new_to_lazyshop"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btn_signup"
+                app:layout_constraintTop_toBottomOf="@+id/btn_signIn"
                 app:layout_constraintWidth_default="percent"
                 app:layout_constraintWidth_percent=".9" />
 

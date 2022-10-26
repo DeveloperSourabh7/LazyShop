@@ -2,10 +2,29 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/authentication_nav_graph"
-    app:startDestination="@id/signupFragment">
+    app:startDestination="@id/signInFragment">
 
     <fragment
         android:id="@+id/signupFragment"
         android:name="com.sourabh.authentication.ui.fragment.SignupFragment"
-        android:label="SignupFragment" />
+        android:label="SignupFragment" >
+        <action
+            android:id="@+id/action_signupFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.sourabh.authentication.ui.fragment.SignInFragment"
+        android:label="SignInFragment" >
+        <action
+            android:id="@+id/action_signInFragment_to_signupFragment"
+            app:destination="@id/signupFragment" />
+        <action
+            android:id="@+id/action_signInFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.sourabh.authentication.ui.fragment.ForgotPasswordFragment"
+        android:label="ForgotPasswordFragment" />
 </navigation>

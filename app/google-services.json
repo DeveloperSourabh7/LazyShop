@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584377151754",
+    "project_id": "lazyshop-295bd",
+    "storage_bucket": "lazyshop-295bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584377151754:android:3dc2efc153e1a871388af3",
+        "android_client_info": {
+          "package_name": "com.sourabh.lazyshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584377151754-d53qraijrenrrr4t3ediff4ciaj73lns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhlmOFR71TGpS8lBjYsLIWwJrLMLa4o3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584377151754-d53qraijrenrrr4t3ediff4ciaj73lns.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
