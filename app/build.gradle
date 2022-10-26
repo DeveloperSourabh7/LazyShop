@@ -39,6 +39,7 @@ android {
 dependencies {
 
     implementation project(path: ':authentication')
+    implementation project(path: ':home')
 
     implementation(AndroidX.coreKtx)
     implementation(AndroidX.appcompat)

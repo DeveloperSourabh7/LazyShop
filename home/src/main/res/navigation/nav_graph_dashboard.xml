@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_dashboard"
+    app:startDestination="@id/homeMainFragment">
+
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.sourabh.home.ui.fragment.ExploreFragment"
+        android:label="ExploreFragment" />
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.sourabh.home.ui.fragment.CategoriesFragment"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.sourabh.home.ui.fragment.CartFragment"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.sourabh.home.ui.fragment.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/homeMainFragment"
+        android:name="com.sourabh.home.ui.fragment.HomeMainFragment"
+        android:label="fragment_home_main"
+        tools:layout="@layout/fragment_home_main" />
+</navigation>

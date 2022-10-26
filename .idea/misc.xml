@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProject/LazyShop/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/drawable/ic_fb_icon.xml" value="0.1785" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/drawable/ic_google_icon.xml" value="0.1785" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/drawable/ic_linked_in_icon.xml" value="0.1785" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/activity_login.xml" value="0.14722222222222223" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/fragment_forgot_password.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/fragment_sign_in.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/LazyShop/authentication/src/main/res/layout/fragment_signup.xml" value="0.1" />
+        <entry key="..\:/AndroidProject/LazyShop/commonutils/src/main/res/drawable/bottom_nav_selector.xml" value="0.176" />
+        <entry key="..\:/AndroidProject/LazyShop/commonutils/src/main/res/layout/activity_base.xml" value="0.18541666666666667" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/drawable/ic_baseline_close_24_primary_color.xml" value="0.114" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.114" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.114" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/drawable/ic_preferences_icon.xml" value="0.114" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/drawable/ic_tnc_icon.xml" value="0.114" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/drawable/ic_user_icon.xml" value="0.114" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/activity_home.xml" value="0.18541666666666667" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/fragment_cart.xml" value="0.17980072463768115" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/fragment_categories.xml" value="0.16875" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/fragment_explore.xml" value="0.17135416666666667" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/fragment_global.xml" value="0.3509963768115942" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/fragment_home_main.xml" value="0.17426545086119555" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/fragment_notification.xml" value="0.17980072463768115" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/header_navigation_drawer.xml" value="0.17426545086119555" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/layout/list_child_item.xml" value="0.17426545086119555" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/menu/bottom_nav_menu.xml" value="0.35833333333333334" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/menu/drawer_menu.xml" value="0.3528205128205128" />
+        <entry key="..\:/AndroidProject/LazyShop/home/src/main/res/menu/menu.xml" value="0.3528205128205128" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
